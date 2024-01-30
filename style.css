@@ -1,0 +1,16 @@
+.color{
+    text-decoration: underline;
+    font-size: 1rem;
+    color: #FFC436;
+    background-color:#191D88;
+    margin: 50px 300px;
+    text-align:center
+}
+h1{
+    text-decoration: underline;
+    margin: 20px 200px;
+    text-align: center;
+    background-color:#191D88;
+    color: #FFC436;
+    font-size: 2rem;
+}
