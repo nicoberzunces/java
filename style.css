@@ -15,6 +15,7 @@ display: flex;
 justify-content: space-between;
 height: 12vh;
 background-color: #191D88;
+position: fixed;
 }
 
 .navbar-logo{
@@ -50,6 +51,16 @@ color:#FFC436;
 font-size: 62px;
 font-weight:bold;
 }
+
+.redes-sociales > a > img{
+  width: 50px;
+  height: 50px;
+}
+.redes-sociales{
+  background-color:#FFC436;
+  padding: 10px;
+}
+
 
 .banner p {
 font-size:30px;
@@ -112,9 +123,12 @@ header .colorNav a {
   font-size: 1rem;
   color: #FFC436;
   background-color:#191D88;
-  max-width: 600px;
-  text-align: center;
-  margin: auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  overflow: hidden;
+  margin: 0.5cm;
 }
 .tarjeta button{
   border: none;
@@ -216,4 +230,13 @@ top: 37px;
 right: 14px;
 position: absolute;
 display: none;
+}
+.sumar{
+  cursor: pointer;
+}
+.restar{
+  cursor: pointer;
+}
+.delete-producto{
+  cursor: pointer;
 }
