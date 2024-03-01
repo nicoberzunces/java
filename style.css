@@ -1,16 +1,219 @@
-.color{
-    text-decoration: underline;
-    font-size: 1rem;
-    color: #FFC436;
-    background-color:#191D88;
-    margin: 50px 300px;
-    text-align:center
+html{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 62.5%;
 }
+.tiendaBoca{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin-top: 30px;
+ margin-left: 80px;
+ margin-right: 80px;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+height: 12vh;
+background-color: #191D88;
+}
+
+.navbar-logo{
+justify-self: start;
+margin-left: 20px;
+color: #FFC436;
+margin-top: 4vh;
+cursor: pointer;
+}
+
+.ver-carrito {
+font-size: 25px;
+margin-right: 20px;
+margin-top: 3.5vh;
+cursor: pointer;
+}
+
+.banner {
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-image: url(./cabj/fotodefondo.jpg);
+}
+
+.banner-container{
+text-align: center;
+padding: 15% 0;
+}
+
+.banner h1 {
+margin: 0;
+color:#FFC436;
+font-size: 62px;
+font-weight:bold;
+}
+
+.banner p {
+font-size:30px;
+color: #FFC436;
+
+}
+
 h1{
-    text-decoration: underline;
-    margin: 20px 200px;
-    text-align: center;
-    background-color:#191D88;
-    color: #FFC436;
-    font-size: 2rem;
+  text-decoration: underline;
+  margin: 20px 200px;
+  text-align: center;
+  background-color:#191D88;
+  color: #FFC436;
+  font-size: 2rem;
+}
+/*h2{
+  font-size: 2rem;
+  text-decoration: underline;
+  background-color:#FFC436;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 60px;
+}*/
+p {
+  font-size: 1.5rem;
+  color: #FFC436;
+  background-color: #191D88;
+  margin: 1px 0px;
+  padding: 5px;
+}
+
+/*  header {
+  font-size: 1.5em;
+}
+header .colorNav {
+  background-color: #191D88;
+}
+header .colorNav a {
+  color: #FFC436;
+}
+/*.document{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+*/
+.tarjeta > img {
+  width: 180px;
+  height: 200px;
+}
+.tarjeta{
+  text-decoration: underline;
+  font-size: 1rem;
+  color: #FFC436;
+  background-color:#191D88;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+}
+.tarjeta button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: aliceblue;
+  background-color: #191D88;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.tarjeta button:hover{
+  opacity: 0.7;
+}
+.precio{
+  color: #FFC436;
+  font-size: 18px;
+}
+
+nav a{
+text-decoration: underline;
+  margin: 20px 200px;
+  text-align: center;
+  background-color:#191D88;
+  color: #FFC436;
+  font-size: 2rem;
+}
+
+img{
+width: 180px;
+  height: 200px;
+}
+
+
+.modal-container {
+width: 80%;
+margin: 0 10%;
+max-height: 88vh;
+color: #191D88;
+background-color: #FFC436;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: fixed;
+overflow: auto;
+z-index: 9;
+top: 12vh;
+}
+
+.modal-header {
+display: flex;
+justify-content: space-around;
+background-color: #191D88;
+color: aliceblue;
+width: 100%;
+}
+
+.modal-header-title {
+justify-self: start;
+}
+
+.modal-header-button {
+cursor: pointer;
+}
+
+.modal-container > .modadal.content {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 70%;
+margin: 10px;
+}
+
+.modal-container > div > img{
+height: 120px;
+width: 120px;
+}
+
+.total-content{
+font-size: 25px;
+padding: 20px;
+text-align: center;
+padding-top: 20px;
+}
+
+.delete-product{
+cursor: pointer;
+}
+
+.cantidad-carrito{
+background-color: #FFC436;
+color: #191D88;
+border-radius: 50%;
+font-size: 12px;
+padding: 4px;
+top: 37px;
+right: 14px;
+position: absolute;
+display: none;
 }
